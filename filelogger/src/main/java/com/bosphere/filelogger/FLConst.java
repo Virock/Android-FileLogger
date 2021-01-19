@@ -23,7 +23,7 @@ public interface FLConst {
         append(Level.D, "D");
         append(Level.I, "I");
         append(Level.W, "W");
-        append(Level.E, "Error");
+        append(Level.E, "E");
     }};
 
     interface RetentionPolicy {
