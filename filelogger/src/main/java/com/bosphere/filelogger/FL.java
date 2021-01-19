@@ -127,7 +127,7 @@ public class FL {
                     logger.w(tag, log);
                     break;
                 case E:
-                    logger.e(tag + " ERROR", log);
+                    logger.e(tag, log);
                     break;
             }
         }
