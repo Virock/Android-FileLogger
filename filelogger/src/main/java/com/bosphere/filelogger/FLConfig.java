@@ -254,7 +254,7 @@ public class FLConfig {
         @Override
         public String formatFileName(long timeInMillis) {
             mDate.get().setTime(timeInMillis);
-            return mFileNameFmt.get().format(mDate.get()) + "_00.txt";
+            return mFileNameFmt.get().format(mDate.get()) + "_00.log";
         }
     }
 }
